@@ -15,7 +15,7 @@ const UseEffect = () => {
 
       fetchFunc();
     };
-  });
+  },[searchQuery]);
 
   return (
     <Card>
